@@ -1,0 +1,300 @@
+@keyframes opacityFirst {
+
+    0% {
+        opacity: 1
+    }
+
+    10% {
+          opacity: 1
+    }        
+
+    100% {
+          opacity: 0
+    }
+}
+
+@keyframes opacityOriginal {
+
+    0% {
+        opacity: 0
+    }
+
+    5% {
+          opacity: 0
+    }    
+
+    10% {
+          opacity: 1
+    }      
+
+    100% {
+          opacity: 1  
+    }
+}
+
+@keyframes opacityBatman {
+
+    0% {
+        opacity: 0
+    }
+
+    15% {
+          opacity: 0
+    }      
+
+    20% {
+          opacity: 1
+    }      
+
+    28% {
+          opacity: 1
+    }  
+
+    30% {
+        opacity: 0
+    }
+
+    100% {
+          opacity: 0  
+    }
+}
+
+
+@keyframes opacityHarvey {
+
+    0% {
+        opacity: 0
+    }
+
+    25% {
+          opacity: 0
+    } 
+
+    30% {
+          opacity: 1
+    }      
+
+    35% {
+          opacity: 1
+    }  
+
+    40% {
+          opacity: 0
+    }      
+
+    100% {
+          opacity: 0
+    }
+}
+
+@keyframes opacityJoker {
+
+    0% {
+        opacity: 0
+    }
+
+    35% {
+          opacity: 0
+    }      
+
+    39% {
+          opacity: 1
+    }      
+
+    45% {
+          opacity: 1
+    }  
+
+
+    50% {
+        opacity: 0
+    }
+
+    100% {
+          opacity: 0
+    }
+}
+
+@keyframes opacityfontA {
+
+    0% {
+        opacity: 0
+    }
+
+    15% {
+          opacity: 0
+    }  
+
+    23% {
+          opacity: 1
+    }      
+
+    29% {
+        opacity: 0
+    }
+
+    100% {
+          opacity: 0  
+    }
+}
+
+@keyframes opacityfontB {
+
+    0% {
+        opacity: 0
+    }
+
+    27% {
+        opacity: 0
+    }
+    
+    33% {
+          opacity: 1
+    }      
+
+    39% {
+          opacity: 0
+    }      
+
+    100% {
+          opacity: 0
+    }
+}
+
+
+@keyframes opacityfontC {
+
+    0% {
+        opacity: 0
+    }
+
+    36% {
+          opacity: 0
+    }   
+
+    45% {
+          opacity: 1
+    }      
+
+    50% {
+        opacity: 0
+    }
+
+    100% {
+          opacity: 0
+    }
+}
+
+
+
+.first { 
+    width: 100%;
+    height: auto;
+    position: fixed;
+    display: inline-block;
+    top: -10%;
+    animation-name: opacityFirst;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+
+}
+
+.original { 
+    width: 100%;
+    height: auto;
+    position: fixed;
+    display: inline-block;
+    top: -10%;
+    animation-name: opacityOriginal;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+
+}
+
+
+.batman { 
+    width: 100%;
+    height: auto;
+    position: fixed;
+    display: inline-block;
+    top: -10%;
+    animation-name: opacityBatman;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+
+}
+
+
+.harvey { 
+    width: 100%;
+    height: auto;
+    position: fixed;
+    display: inline-block;
+    top: -10%;
+    animation-name: opacityHarvey;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+
+
+}
+
+.joker { 
+    width: 100%;
+    height: auto;
+    position: fixed;
+    display: inline-block;
+    top: -10%;
+    animation-name: opacityJoker;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+
+
+}
+
+.batman-ment { 
+    width: 100%;
+    height: auto;
+    position: fixed;
+    display: inline-block;
+    top: -1%;
+    animation-name: opacityfontA;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+
+
+}
+
+.harvey-ment { 
+    width: 100%;
+    height: auto;
+    position: fixed;
+    display: inline-block;
+    top: -1%;
+    animation-name: opacityfontB;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+
+
+}
+
+.joker-ment { 
+    width: 100%;
+    height: auto;
+    position: fixed;
+    display: inline-block;
+    top: -1%;
+    animation-name: opacityfontC;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+
+
+}
+
